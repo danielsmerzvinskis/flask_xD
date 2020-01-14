@@ -8,7 +8,7 @@ def index():
   
 @app.route('/home')
 def home():
-  return "<h1><a href=https://flaskintro.psychodanny.repl.co/about>This House is Lit</a></h1>"
+  return render_template('home.html')
 
 @app.route('/about')
 def about():
