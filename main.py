@@ -21,4 +21,3 @@ def contacts():
 
 app.run(host='0.0.0.0', port = 8020)
 
-# Push github un registreties Heroku
