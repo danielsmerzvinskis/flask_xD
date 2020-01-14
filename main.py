@@ -8,7 +8,7 @@ def index():
   
 @app.route('/home')
 def home():
-  return render_template('home.html')
+  return render_template('home.html', aktiva_lapa ="home")
 
 @app.route('/about')
 def about():
@@ -16,7 +16,7 @@ def about():
 
 @app.route('/contacts')
 def contacts():
-  return render_template('contact.html')
+  return render_template('contacts.html')
 
 if __name__ == "__main__":
   app.run(host='0.0.0.0', port = 5420, threaded = True, debug = True)
