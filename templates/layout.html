@@ -7,7 +7,7 @@
     <header>
       <div class="container">
         <nav>
-          <ul>
+          <ul class="menu">
             <li {% if aktiva_lapa == 'home' %}
                   class="active"
                 {% endif %}>
@@ -22,6 +22,11 @@
                   class="active"
                 {% endif %}>
                 <a href="/contacts">Contacts</a></li>
+
+            <li {% if aktiva_lapa == 'chat' %}
+                  class="active"
+                {% endif %}>
+                <a href="/chat">Chat</a></li>
           </ul>
         </nav>
       </div>

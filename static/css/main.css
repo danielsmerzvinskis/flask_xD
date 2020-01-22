@@ -1,9 +1,9 @@
 p { 
-  color: red;
+  color: rgb(0, 217, 255);
   font-size: 20px;
 }
 
 .active > a{
-  color: red;
+  color: magenta;
 
 }
