@@ -42,5 +42,9 @@ def test():
 def test2():
   return render_template('test2.html')
 
+@app.route('/post_req', methods = ["POST"])
+def post_req():
+  return request.args
+
 if __name__ == "__main__":
   app.run(host='0.0.0.0', port = 5420, threaded = True, debug = True)
