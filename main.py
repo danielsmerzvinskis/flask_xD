@@ -33,5 +33,14 @@ def params_table():
 @app.route('/chat')
 def chat():
   return render_template('chat.html')
+
+@app.route('/test')
+def test():
+  return render_template('test.html')
+
+@app.route('/test2')
+def test2():
+  return render_template('test2.html')
+
 if __name__ == "__main__":
   app.run(host='0.0.0.0', port = 5420, threaded = True, debug = True)
