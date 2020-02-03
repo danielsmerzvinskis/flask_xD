@@ -46,5 +46,9 @@ def test2():
 def post():
   return request.get+_json()
 
+@app.route('/chatok')
+def chatok():
+  return render_template('chatok.html')
+
 if __name__ == "__main__":
   app.run(host='0.0.0.0', port = 5420, threaded = True, debug = True)
