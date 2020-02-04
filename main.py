@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+from file_proc import read_file
 
 app = Flask(__name__)
 
@@ -49,6 +50,11 @@ def post():
 @app.route('/chatok')
 def chatok():
   return render_template('chatok.html')
+
+@app.route('/read_file')
+def read_from_file():
+  content = read_file()
+  return content
 
 if __name__ == "__main__":
   app.run(host='0.0.0.0', port = 5420, threaded = True, debug = True)
