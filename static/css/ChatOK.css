@@ -2,16 +2,24 @@ body {
     font-family: sans-serif !important;
 }
 .bg-funky{
-    background: #696969;
+    background-image: linear-gradient(-90deg,#000428, #004e92)
 }	
-  
+
+.Msg-send{
+    width: 552px;
+    background-color: #4CAF50;
+}
+
+.Msg-cnl{
+    width: 552px;
+    background-color:red;
+}
+
 .heading {
     color: #fff;
     margin: 30px;
     font-weight: 600;
 }
-  
-img {max-width: 100%;}
     
 .inbox_msg {
     border: 1px solid #c4c4c4;
@@ -76,6 +84,7 @@ img {max-width: 100%;}
     padding: 0 0 0 10px;
     vertical-align: top;
     width: 92%;
+    height: 50%;
 }
 
 .received_withd_msg p {
