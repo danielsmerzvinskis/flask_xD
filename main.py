@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from file_proc import read_file
+import file_proc
 
 app = Flask(__name__)
 

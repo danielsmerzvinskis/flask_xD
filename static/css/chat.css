@@ -1,8 +1,9 @@
 .chat-box{
+    background-image: linear-gradient(180deg,#000428, #004e92);
     height: 300px;
     width: 90%;
     padding: 50px;
-    border: 1px solid red;
+    border: 1px solid dimgray;
     box-sizing: border-box;
     border-width: 5px;
 }
