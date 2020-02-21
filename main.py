@@ -35,10 +35,6 @@ def params_table():
 def chat():
   return render_template('chat.html')
 
-@app.route('/test')
-def test():
-  return render_template('test.html')
-
 @app.route('/post', methods = ["POST"])
 def post():
   return request.get_json()
