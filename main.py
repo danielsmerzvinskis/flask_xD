@@ -39,17 +39,9 @@ def chat():
 def test():
   return render_template('test.html')
 
-@app.route('/test2')
-def test2():
-  return render_template('test2.html')
-
 @app.route('/post', methods = ["POST"])
 def post():
   return request.get_json()
-
-@app.route('/chatok')
-def chatok():
-  return render_template('chatok.html')
 
 @app.route('/read_file')
 def read_from_file():

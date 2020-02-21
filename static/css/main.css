@@ -6,3 +6,10 @@ p {
 .active > a{
   color: magenta;
 }
+
+body {
+  font-family: sans-serif !important;
+}
+.bg-funky{
+  background-image: linear-gradient(-90deg,#000428, #004e92)
+}

@@ -1,0 +1,13 @@
+.chat-box{
+    height: 300px;
+    width: 90%;
+    padding: 50px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    border-width: 5px;
+}
+
+/* .btn{
+    background-color: red;
+} */
+
