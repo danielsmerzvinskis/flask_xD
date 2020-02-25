@@ -1,4 +1,4 @@
-.chat-box{
+.chats{
     background-image: linear-gradient(180deg,#000428, #004e92);
     height: 300px;
     width: 90%;
@@ -8,6 +8,28 @@
     border-width: 5px;
 }
 
-/* .btn{
-    background-color: red;
+.msg-sent{
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.msg-inc{
+    border: 2px solid #ccc;
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* .time-right {
+    float: right;
+    color: #aaa;
+}
+  
+.time-left {
+    float: left;
+    color: #999;
 } */
