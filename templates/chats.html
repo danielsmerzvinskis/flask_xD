@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../static/css/main.css">
     <link rel="stylesheet" href="../static/css/chat.css">
     <style>
       body {font-family: Arial, Helvetica, sans-serif;}
@@ -38,13 +39,13 @@
             <div class="container-fluid text-center">
                 <div class="row content">
                     <div class="col-sm-2 sidenav">
-                        <!-- <p><a href="https://youtu.be/dQw4w9WgXcQ">Free money, try it out!!!</a></p>
+                        <p><a href="https://youtu.be/dQw4w9WgXcQ">Free money, try it out!!!</a></p>
                         <p><a href="#"></a></p>
-                        <p><a href="#"></a></p> -->
+                        <p><a href="#"></a></p>
                     </div>
                     <div class="col-sm-8 text-left">
                         <font color="#8b000000">    
-                            <h1>Chat :)</h1>
+                            <h1 class="chat">Chat :)</h1>
                               <hr />
                               
                               <div id="chats" class="chats">
@@ -54,11 +55,16 @@
                               
                               
                               <div>
-                                <input id="zinja" placeholder="Type your message here" type="text">
+                                <input class="msg-field" id="zinja" placeholder="Go on, chat with yourself, be a lonely bastard" type="text">
                                 <button onClick="suutiZinju();" type="button">Send</button>
                               </div>
                               <script src="../static/js/chat.js"></script>
                               {% block yeah %}
 
                               {% endblock %}
+                        </font>
+                    </div>
+                </div>
+                </div>
+</body> 
 </html>
