@@ -18,7 +18,7 @@
         <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -27,10 +27,20 @@
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="links.html">Links</a></li>
-                            <li><a href="contacts.html">Contact Us</a></li> -->
+                            <li {% if aktiva_lapa == 'home' %}
+                                class="active"
+                            {% endif %}>
+                          <a href="#">Home</a></li>
+          
+                       <li {% if aktiva_lapa == 'about' %}
+                            class="active"
+                          {% endif %}>
+                          <a href="/about">About</a></li>
+          
+                       <li {% if aktiva_lapa == 'contacts' %}
+                            class="active"
+                          {% endif %}>
+                          <a href="/contacts">Contacts</a></li>
                         </ul>
                     </div>
                 </div>

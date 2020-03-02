@@ -78,4 +78,4 @@ def workFile():
     return f"Method {request.method} is not supported!"
 
 if __name__ == "__main__":
-  app.run(host='0.0.0.0', port = 5420, threaded = True, debug = True)
+  app.run(port = 5420, threaded = True, debug = True)
